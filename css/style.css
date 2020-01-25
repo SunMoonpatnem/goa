@@ -1,0 +1,126 @@
+*{
+	margin: 2px;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.body{
+	background: #dedde;
+	font-family: arial;
+	margin: 0; 
+	padding: 0;
+}
+.dropdown{
+	margin: 0 auto;
+}
+nav{
+	height: 60px;
+	background: #2c3e50;
+	box-shadow: o 10px 15px rgba(0,0,0,0.1);
+}
+.logo{
+	padding: 5px 0 0 80px;
+	width: 150px
+	height: auto;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+	float: right;
+	margin-right: 30px;
+}
+nav ul li{
+	background: #2c3e50;
+    position: relative;
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+	display: block;
+	padding: 0 15px;
+	color: white;
+	text-decoration: none;
+	line-height: 50px;
+	font-size: 20px;
+}
+nav ul li a:hover {
+	background-color: #243342;
+}
+nav ul ul{
+	position: absolute;
+	top: 60px;
+	display: none;
+}
+nav ul li:hover > ul{
+	display: block;
+}
+
+nav ul ul li{
+    width: 150px;
+    float: none;
+	display: list-item;
+	position: relative;
+}
+	
+	
+	
+	
+	
+	
+	
+
+header{
+	background-image: url(../images/sunmoon.jpg);
+	height: 75vh;
+	background-size: cover;
+	background-position: center;
+
+	
+}
+
+
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%)
+   
+}
+body h1{
+	aliign: right;
+}
+title h1{
+	font-size: 30px;
+	font-style: azimuth;
+}
+
+.footer_container{
+	width: 1320px;
+	height: 200px;
+	border-top: solid 1px black;
+	display: flex;
+	margin: 0 10px 40px 0;
+}
+
+.footer_column{
+	width: 500px;
+	height: 250px;
+	float: left;
+	background-color: black;
+}
+
+.footer_titles{
+	text-transform: uppercase;
+	color: #bf9515;
+	font-size: 17px;
+	font-weight: 400;
+	padding: 30px 0;
+	font-family: 'Open Sans';
+}
+.map{
+	width: 100%;
+	height: 110px;
+}
+
+ 

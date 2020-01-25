@@ -1,0 +1,239 @@
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="https://use.fontawesome.com/release/v5.6.3/css/all.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale-1.0">
+<meta name="description" content="Book seastar resort now A1 resort located in south goa">
+<meta name="keyword" content="book now, ">
+
+
+</head>
+<style>
+input[type="email"]:valid{
+        outline: 2px solid green;
+    }
+    input[type="email"]:invalid{
+        outline: 2px solid red;
+    }
+	input[type="mobile"]:valid{
+        outline: 2px solid green;
+    }
+    input[type="mobile"]:invalid{
+        outline: 2px solid red;	
+    }
+	input[type=submit]{
+	cursor: pointer;
+    background-color: #45a049;
+            
+	}
+*{
+	margin: 2px;
+	padding: 0px;
+	margin bottom: 10px;
+	box-sizing: border-box;
+	font-family: ;
+}
+
+header{
+	background-color: black;
+	height: auto;
+	background-size: cover;
+	background-position: center;
+}
+
+.body{
+	background: #dedde;
+	font-family: arial;
+	margin: 0; 
+	padding: 0;
+}
+.dropdown{
+	margin: 0 auto;
+}
+nav{
+	height: 60px;
+	background: #2c3e50;
+	box-shadow: o 10px 15px rgba(0,0,0,0.1);
+}
+.logo{
+	padding: 5px 0 0 80px;
+	width: 150px
+	height: auto;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+	float: right;
+	margin-right: 30px;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+	float: right;
+	margin-right: 30px;
+}
+nav ul li{
+	background: #2c3e50;
+    position: relative;
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+	display: block;
+	padding: 0 15px;
+	color: white;
+	text-decoration: none;
+	line-height: 50px;
+	font-size: 20px;
+}
+nav ul li a:hover {
+	background-color: #243342;
+}
+nav ul ul{
+	position: absolute;
+	top: 60px;
+	display: none;
+}
+nav ul li:hover > ul{
+	display: block;
+}
+
+nav ul ul li{
+    width: 150px;
+    float: none;
+	display: list-item;
+	position: relative;
+}
+</style>
+<script>
+function validateform() {
+                var name = document.reg_form.uname.value;
+
+                if (name === null || name === "") {
+                    window.alert("name can't be left blank");
+					document.getElementById("un").focus();
+                    return false;
+					}     
+				var name = document.reg_form.lname.value;
+
+                if (name === null || name === "") {
+                    window.alert("lastname can't be left blank");
+					document.getElementById("um").focus();
+                    return false;
+                }
+				var mob_num = document.reg_form.mobile.value;
+                if (isNaN(mob_num)) {
+                    document.getElementById("mob").innerHTML = "Enter Numeric value only";
+                    document.getElementById("ph").focus();
+					return false;
+                } else if (mob_num.length !== 10) {
+                    document.getElementById("mob").innerHTML ="Mobile number should be of 10 digits";
+                    document.getElementById("ph").focus();
+					return false;
+                } else {
+				    document.getElementById("mob").innerHTML = "";
+                    return true;
+                }
+				}
+				
+var date = document.getElementById("mydate").value;
+        alert(date);
+	var datetime = document.getElementById("mydatetime").value;
+        alert(datetime);
+		
+	var email = document.getElementById("myemail").value;
+        alert(email);
+	 var month = document.getElementById("mymonth").value;
+        alert(month);
+	var time = document.getElementById("mytime").value;
+        alert(time);
+		
+</script>
+
+
+          
+<body>
+						
+					
+ <!-- header -->
+		<header id="header">
+		
+		</div>
+		  <!-- dropdown -->
+		     <div class="dropdown">
+			 <nav>
+			 <img class="logo" src="">
+			 
+			 
+
+			 
+	            
+					 <ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="services-of-SunMoon-resort.html">SERVICE</a>
+					   <ul>
+					     <li><a href="Bar & Resturant-in-SunMoon-resort.html">BAR & RESTAURANT</a></li>
+					      <li><a href="yoga-classes-SunMoon-resort.html">YOGA</a></li>
+					   </ul>
+					</li>
+					<li><a href="accomodation-0f-SunMoon-resort.html">ACCOMODATION</a></li>
+					<li><a href="book now.html">BOOK NOW</a></li>
+					<li><a href="sitemap.html">SITEMAP</a></li>
+					
+				   </ul>
+				   </nav>
+				   </div>	 
+
+<div style="margin: auto; display: table;">
+	
+	<form name="reg_form" onsubmit="return validateform()"  >
+	
+<div style="width: 400px;">
+</div><br><br>
+<div style="padding-bottom: 18px;font-size : 24px;"><font color="#fff">Book Now</font></div>
+<div style="display: flex; padding-bottom: 18px;width : 450px;">
+<div style=" margin-left : 0; margin-right : 1%;  width : 49%;"><font color="#fff"><label>First name</label><span style="color: red;"> *</span></font><br/>
+<input type="text"  name="uname" id="un" value=""   style="width: 100%;"  />
+</div>
+<div style=" margin-left : 1%; margin-right : 0; width : 49%;"><font color="#fff"><label>Last name</label><span style="color: red;"> *</span></font><br/>
+<input type="text"  name="lname"  id="um" value=""  style="width: 100%;"  />
+</div>
+</div><div style="padding-bottom: 18px;"><font color="#fff"><label>Phone</label><span style="color: red;"> *</span></font><br/>
+<input type="text" name="mobile"  value="" id="ph"   style="width : 200px;"  />
+</div>
+<div style="padding-bottom: 18px;"><font color="#fff">Email<span style="color: red;"> *</span></font><br/>
+<input type="email" name="email" value="" id="myemail" required /><br>
+</div>
+<div style="padding-bottom: 18px;"><font color="#fff">Arrival date and time<span style="color: red;"> *</span></font><br/>
+<input type="datetime-local" id="mydatetime"  required /><br>
+<div style="padding-bottom: 18px;"><font color="#fff">Departure date and time<span style="color: red;"> *</span></font><br/>
+<input type="datetime-local" id="mydatetime"  /><br>
+</div>
+<div style="padding-bottom: 18px;"><font color="#fff">Number of adults</font><br/>
+<input type="number" id="" name="" required style="width : 70px;" />
+</div>
+<div style="padding-bottom: 18px;"><font color="#fff">Number of children</font><br/>
+<input type="number" id="" name="" required style="width : 70px;" />
+</div>
+<div class="submit" style="padding-bottom: 18px;"><input name="summitbtn" value="register" type="submit"/></div>
+</form>
+<font color="#fff"><span id="mob"></span><br>
+</div>
+</body>
+
+<script>
+var date = new Date();
+
+var day = date.getDate();
+var month = date.getMonth() + 1;
+var year = date.getFullYear();
+
+if (month < 10) month = "0" + month;
+if (day < 10) day = "0" + day;
+
+var today = year + "-" + month + "-" + day;       
+document.getElementById("mydate").value = today;
+
+</script>
+</html>
